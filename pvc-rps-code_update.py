@@ -13,7 +13,7 @@ import random
 score = 0
 computer_score = 0
 Round = 1
-print("Welcome to Camille's Rock Paper Scissors Tornament!")
+print("Welcome to Camille's Rock Paper Scissors Tournament!")
 print("- \nTake your pick...")
 while True:
     choices = ["rock", "paper", "scissors"]
