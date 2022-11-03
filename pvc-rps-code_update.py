@@ -25,40 +25,40 @@ while True:
     if player not in choices:
         print("You Cheated!\nPlay fair and choose from rock, paper, or scissors next time ;)...")
     if player == computer:
-        Round = Round + 1
+        Round += 1
         print("\nDraw!".upper())
     elif player == "rock":
         if computer == "paper":
             print("\nComputer Wins!".upper())
-            computer_score = computer_score + 1
-            Round = Round + 1
+            computer_score += 1
+            Round += 1
             print("Computer score is: "+str(computer_score))
         if computer == "scissors":
             print("\nPlayer Wins!".upper())
-            score = score + 1
-            Round = Round + 1
+            score += 1
+            Round += 1
             print("Your score is: "+str(score))
     elif player == "paper":
         if computer == "scissors":
             print("\nComputer Wins!".upper())
-            computer_score = computer_score + 1
-            Round = Round + 1
+            computer_score += 1
+            Round += 1
             print("Computer score is: "+str(computer_score))
         if computer == "rock":
             print("\nPlayer Wins".upper())
-            score = score + 1
-            Round = Round + 1
+            score += 1
+            Round += 1
             print("Your score is: "+str(score))
     elif player == "scissors":
         if computer == "rock":
             print("\nComputer Wins!".upper())
-            computer_score = computer_score + 1
-            Round = Round + 1
+            computer_score += 1
+            Round += 1
             print("Computer score is: "+str(computer_score))
         if computer == "paper":
             print("\nPlayer Wins!".upper())
-            score = score + 1
-            Round = Round + 1
+            score += 1
+            Round += 1
             print("Your score is: "+str(score))
     play_again = input("\nPlay Again (Y/N): ").upper()
     if play_again != "Y":
